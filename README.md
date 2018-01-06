@@ -1,2 +1,2 @@
-# ProgrammingProblemSolutions
-Contains solution to all the programming problems I have solved
+# Programming Problem Solutions
+##Contains solution to all the programming problems I have solved
