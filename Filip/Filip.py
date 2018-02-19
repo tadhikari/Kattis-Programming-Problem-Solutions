@@ -5,7 +5,5 @@ def greater(a,b):
         return a
     else:
         return b
-
-
 a,b = input().split()
 print(greater(a,b))
