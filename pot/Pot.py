@@ -6,4 +6,3 @@ for i in range(times):
     power = int(temp[-1])
     total+= (number**power)
 print(total)
-    
