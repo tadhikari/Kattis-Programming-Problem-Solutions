@@ -4,7 +4,6 @@ https://open.kattis.com/problems/oddities
 
 
 '''
-
 run = int(input())
 for i in range(run):
     num = int(input())
