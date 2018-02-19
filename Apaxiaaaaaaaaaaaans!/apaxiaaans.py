@@ -7,5 +7,4 @@ def name(name):
 
         temp = i
     return answer
-
 print(name(input()))
