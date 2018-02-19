@@ -1,3 +1,6 @@
+'''
+https://open.kattis.com/problems/bijele
+'''
 pieces = input().split()
 k = 1-int(pieces[0])
 q = 1-int(pieces[1])
