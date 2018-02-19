@@ -9,8 +9,7 @@ def average(data):
     decimal  = addDecimal(avg.split('.')[1])
     answer = "{}.{}%".format(avg.split('.')[0],decimal)
     return answer
-        
- 
+
 def addDecimal(decimal):
     if len(decimal) < 3:
         while len(decimal) < 3:
