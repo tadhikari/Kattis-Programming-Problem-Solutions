@@ -3,7 +3,6 @@ import math
 x = input()
 a,n = map(float,x.split())
 
-
 ##a circle is the least area covering geometrical shape.
 
 radius = n/(math.pi*2)
