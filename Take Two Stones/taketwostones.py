@@ -4,5 +4,4 @@ def whoWins(number_of_stones):
     else:
         return "Alice"
 
-
 print(whoWins(int(input())))
