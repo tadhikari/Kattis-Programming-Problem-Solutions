@@ -25,8 +25,6 @@ for i in right:
 
 
 score = 20*number_of_wrong
-
 for i in right:
     score+=int(i[0])
-
 print(len(right),score)
