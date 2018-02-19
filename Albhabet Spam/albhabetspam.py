@@ -2,8 +2,9 @@
 #Asci 97-122 small letters
 #Asci 32 is space
 #other charecters
-
-
+'''
+https://open.kattis.com/problems/alphabetspam
+'''
 num_capital = 0
 num_small = 0
 num_char = 0
