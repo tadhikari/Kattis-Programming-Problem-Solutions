@@ -19,4 +19,4 @@ def addDecimal(decimal):
 
     return decimal
 
-print(average("5 50 50 70 80 100"))
+print(average(input()))
