@@ -1,10 +1,6 @@
 '''
-
 https://open.kattis.com/problems/modulo
-
-
 '''
-
 num = []
 for i in range(10):
     num.append(int(input()))
