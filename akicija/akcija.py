@@ -9,8 +9,6 @@ for i in range(times):
     prices.append(int(input()))
     
 prices.sort()
-prices
-
 pos = 1
 price = 0
 
