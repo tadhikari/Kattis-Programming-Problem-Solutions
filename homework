@@ -1,0 +1,124 @@
+package inputSanitation;
+
+import java.util.ArrayList;
+
+public class sanitizer {
+
+	
+
+	public void isSafe(String s) {
+		s = s.toLowerCase();
+		if(sqlCheck(s) || unbalancedQuote(s)) {
+			System.out.print("No");
+		}
+		
+	}
+	
+	
+	public boolean balancedPar(String string) {
+		
+		Stack s = new Stack();
+		char[] splitted = string.toCharArray();
+		char[] paren;
+		
+		
+		
+		
+		boolean balanced = true;
+		int index = 0;
+		while(index < splitted.length && balanced) {
+			
+			
+			
+			
+		}
+		return false;
+	}
+	
+	private char[] paren(char[] string) {
+		char[] paren; 
+		for(char c:string) {
+			//if // I am here
+		}
+		
+		
+		return null;
+	}
+	
+	
+	public boolean sqlCheck(String s) {
+		
+		String[] splitted = s.split("\\s+");
+		
+		boolean isSelect = false;
+		boolean isWhere = false;
+		
+		for(String c:splitted) {
+			if(c.equals("select")) {
+				isSelect = true;
+			}	
+			if(c.equals("where")) {
+				isWhere = true;
+			}
+		}
+		if(isSelect == true && isWhere == true) {
+			//System.out.print("contains sql");
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean unbalancedQuote(String s) {
+		
+		char[] splitted = s.toCharArray();
+		
+		int counter1=0;
+		int counter2=0;
+		
+		for(char c:splitted) {
+		
+			if(c == '\'') {
+				counter1++;
+			}
+			
+			else if(c == '"') {
+				counter2++;
+			}
+			
+		}
+		
+		if(counter1%2==0 && counter2%2==0) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+}
+
+class Stack {
+	
+	ArrayList<Character> items;
+	
+	public Stack() {
+		items = new ArrayList<Character>();
+	}
+	
+	public void push(char c) {
+		items.add(c);
+	}
+	
+	public char pop() {
+		return items.remove(items.size()-1);
+	}
+	
+	public boolean isEmpty() {
+		
+		if(items.size()==0) {
+			return true;
+		}
+		
+		return false;
+	}
+}
+
