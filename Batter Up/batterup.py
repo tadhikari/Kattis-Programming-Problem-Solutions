@@ -1,5 +1,6 @@
-
-
+'''
+https://open.kattis.com/problems/batterup
+'''
 bat = int(input())
 plays = input().split()
 total = 0
