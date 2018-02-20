@@ -18,7 +18,6 @@ while len(prices) > 0:
         else:
             price+=prices.pop()
         pos+=1
-
 print(price)
         
         
