@@ -8,6 +8,5 @@ def shortForm(word):
         shortTerm += i[0]
 
     return shortTerm
-
 print(shortForm(input()))
     
