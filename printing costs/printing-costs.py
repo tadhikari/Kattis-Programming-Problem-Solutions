@@ -1,7 +1,6 @@
 '''
 https://open.kattis.com/problems/printingcosts
 '''
-
 from sys import stdin
 
 dic={' '  : 0    ,    '!' :  9     ,   '"'  : 6   ,     '#' : 24   ,     '$' : 29    ,    '%' : 22,
