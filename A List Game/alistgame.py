@@ -1,3 +1,6 @@
+'''
+https://open.kattis.com/problems/listgame
+'''
 def factors(n):
     factors = 0
     factor = 2
