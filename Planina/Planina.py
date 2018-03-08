@@ -3,7 +3,6 @@
 https://open.kattis.com/problems/planina
 
 '''
-
 initial_side = 2 #at initial state a side ocntains 2 points
 
 iteration = int(input())
