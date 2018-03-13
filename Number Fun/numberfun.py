@@ -2,7 +2,6 @@
 https://open.kattis.com/problems/numberfun
 '''
 
-
 a = int(input())
 
 for i in range(a):
